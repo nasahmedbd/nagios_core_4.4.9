@@ -4,9 +4,6 @@
 
 
 
-Verify the Nagios config run the following command-
-/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
-
 # Pre-Installation 
 
 1. Download the installation_elx.sh (based on your requirement)
@@ -44,3 +41,12 @@ It does basically three things:
 3. Resolve your problems NSClient++ can take action either on its own monitoring or remotely from a central server and act on what happens and resolve issues.
 
 [NSClient++ Download](http://nsclient.com/download/)
+
+
+
+# Verifying Your Configuration
+Every time you modify your configuration files, you should run a sanity check on them. It is important to do this before you (re)start Nagios Core, since it will shut down if your configuration contains errors.
+
+In order to verify your configuration, run Nagios Core binary with the -v command line option like so:
+
+/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
