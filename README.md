@@ -3,6 +3,12 @@
 Verify the Nagios config run the following command-
 /usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg
 
+# Pre-Installation 
+
+Download the installation_elx.sh (based on your requirement)
+chmod 766 installation_elx.sh (change the file permission)
+./installation_el7.sh (for RHEL 7.x, Centos 7.x, Oracle linux 7.x)
+./installation_el8.sh (for RHEL 8.x, Centos 8.x, Oracle linux 8.x)
 
 # Post Installation Tasks
 
