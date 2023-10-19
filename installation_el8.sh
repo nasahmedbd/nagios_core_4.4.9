@@ -7,7 +7,7 @@ getenforce
 
 ## Configure EPEL Repository
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm 
-yum install -y git gcc glibc glibc-common make gettext automake autoconf wget openssl-devel net-snmp net-snmp-utils unzip httpd php gd gd-devel perl postfix
+yum install -y git gcc glibc glibc-common make gettext tar automake autoconf wget openssl-devel net-snmp net-snmp-utils unzip httpd php gd gd-devel perl postfix
 yum install -y perl-Net-SNMP
 cd /tmp
 git clone https://github.com/nasahmed12522/nagios_core_4.4.9.git
